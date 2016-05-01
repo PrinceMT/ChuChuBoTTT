@@ -28,5 +28,8 @@
      Bot.say(by, room, 'I\'m going off duty, enjoy your freedom everyone!');
      break;
      }
+     default:
+     Bot.say(by,  room, ' \'' + toggle + '\' is not valid choice for moderation toggling... the correct syntax is ' + config.commandcharacter + ' mod ** On/Off ** ^_^');
+    }
 },
 };
