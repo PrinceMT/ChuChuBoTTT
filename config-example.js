@@ -1,9 +1,9 @@
 //place the URL of the showdown server you are aiming to connect to
-exports.url = 'play.pokemonshowdown.com';
+exports.url = 'dragons-den-umbreon.c9users.io';
 
 // The nick and password to log in with
-var nick = exports.nick = ''
-exports.pass = '';
+var nick = exports.nick = 'Inferno Queen';
+exports.pass = 'aaaaaa';
 
 // A list of private rooms that the bot will not leak through the seen command
 exports.privaterooms = [];
@@ -13,11 +13,11 @@ exports.privaterooms = [];
 // Showdown itself.
 // Using only alphanumeric characters and spaces is not allowed.
 // Add more command characters 
-var comChar = exports.commandcharacter = ['+', '.'];
+var comChar = exports.commandcharacter = ['-'];
 
 // The default rank is the minimum rank that can use a command in a room when
 // no rank is specified in settings.json
-exports.defaultrank = '@';
+exports.defaultrank = '+';
 
 // Whether this file should be watched for changes or not.
 // If you change this option, the server has to be restarted in order for it to
@@ -40,7 +40,7 @@ exports.debuglevel = 3;
 // Users who can use all commands regardless of their rank. Be very cautious
 // with this, especially on servers other than main.
 // This, however does NOT give dev permissions which are declared in parser.js
-exports.excepts = [];
+exports.excepts = ['alliance sky', 'prince sky'];
 
 // Add a link to the help for the bot here. When there is a link here, .help and .guide
 // will link to it.
@@ -86,9 +86,9 @@ exports.override = {
 
 for c9 servers
 exports.override = {
-	server: "chuchupsim-pikachildyellow.c9.io",
-	port: 80,
-	serverid: "chuchu"
+	server: "dragons-den-umbreon.c9users.io",
+	port: 8080;
+	serverid: "thecasino"
 }
 //for origin
 exports.override = {
